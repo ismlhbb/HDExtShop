@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HDExtShop</string>
+    <string name="top_menu">Top Product</string>
+    <string name="order_hard_disk_external">Order Hard Disk External</string>
+    <string name="ismail_habibi_herman">Ismail Habibi Herman</string>
+    <string name="developer">Developer</string>
+    <string name="seagate_backup_plus_slim_edition_2tb_usb_3_0">Seagate Backup Plus SLIM Edition 2TB USB 3.0</string>
+    <string name="seagate_backup_plus_slim_edition_1tb_usb_3_0">Seagate Backup Plus SLIM Edition 1TB USB 3.0</string>
+    <string name="wd_elements_2tb_usb_3_0">WD Elements 2TB - USB 3.0</string>
+    <string name="wd_elements_1tb_usb_3_0">WD Elements 1TB - USB 3.0</string>
+    <string name="wd_my_passport_2tb_usb_3_0_new_model">WD My Passport 2TB USB 3.0 - New Model</string>
+    <string name="wd_my_passport_1tb_usb_3_0_new_model">WD My Passport 1TB USB 3.0 - New Model</string>
+    <string name="your_name">Your Name</string>
+    <string name="menu">Product</string>
+    <string name="bonus">Bonus</string>
+    <string name="pouch_dompet_for_external_harddisk">Pouch / Dompet For External Harddisk</string>
+    <string name="kabel_perpanjangan_usb_3_0_1_meter">Kabel Perpanjangan USB 3.0 - 1 Meter</string>
+    <string name="quantity">Quantity</string>
+    <string name="min">-</string>
+    <string name="plus">+</string>
+    <string name="reset">Reset</string>
+    <string name="order">Order</string>
+</resources>

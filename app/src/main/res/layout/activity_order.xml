@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_coffee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <EditText
+        android:id="@+id/mTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/your_name"
+        android:textSize="@dimen/text_14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/menu"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_14"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/mSpinnerMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/bonus"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_14"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/mRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <RadioButton
+            android:id="@+id/mItem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pouch_dompet_for_external_harddisk" />
+
+        <RadioButton
+            android:id="@+id/mItem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kabel_perpanjangan_usb_3_0_1_meter" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/quantity"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_14"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mButtonMin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="onClickMin"
+            android:text="@string/min"
+            android:textSize="@dimen/text_14" />
+
+        <TextView
+            android:id="@+id/mTextQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="@dimen/text_14" />
+
+        <Button
+            android:id="@+id/mButtonPlus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="onClickPlus"
+            android:text="@string/plus"
+            android:textSize="@dimen/text_14" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mTextHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Rp0"
+        android:textSize="@dimen/text_16" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickReset"
+            android:text="@string/reset"
+            android:textSize="@dimen/text_14" />
+
+        <Button
+            android:id="@+id/mButtonOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickOrder"
+            android:text="@string/order"
+            android:textSize="@dimen/text_14" />
+    </LinearLayout>
+</LinearLayout>
